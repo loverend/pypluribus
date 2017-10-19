@@ -18,6 +18,8 @@ import uuid
 
 install_reqs = parse_requirements('requirements.txt', session=uuid.uuid1())
 
+test
+
 reqs = [str(ir.req) for ir in install_reqs]
 
 version = '0.3.1'
